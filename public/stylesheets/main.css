@@ -1,0 +1,19 @@
+body {
+  background: #A1F9FF;
+}
+
+nav {
+  background: #2EAAB2;
+}
+
+nav li {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+}
