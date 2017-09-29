@@ -1,5 +1,9 @@
 class CartsController < ApplicationController
 
+  def show
+    @cart = Cart.find(params[:id])
+  end
+
   def checkout
     verify_user
     @cart = Cart.find(params[:id])
